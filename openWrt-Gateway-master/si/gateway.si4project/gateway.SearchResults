@@ -1,0 +1,4 @@
+---- MQ_SOCKET_SEND Matches (3 in 1 files) ----
+gw_ipc.c (ipc) line 7 : #define MQ_SOCKET_SEND	"/mq_socket_send"
+ipc_init in gw_ipc.c (ipc) : 	gatewayInfo->mqueue.mqid_report = mq_open(MQ_SOCKET_SEND, O_CREAT | O_RDWR, 0666, NULL);
+ipc_init in gw_ipc.c (ipc) : 	gatewayInfo->mqueue.mqid_device = mq_open(MQ_SOCKET_SEND, O_CREAT | O_RDWR, 0666, NULL);
